@@ -4,7 +4,21 @@
     "description": "Extension which removes trackers to enable infinite free browsing, effectively making it theage.com.au a free resource",
     "version":"1.0",
     "action":{
-        "default_icon":"theage_com_au.png",
+        "default_icon":"images/theage_128.png",
         "default_popup":"in_browser_description.html"
-    }
+    },
+    "icons": {
+        "16": "images/theage_16.png",
+        "32": "images/theage_32.png",
+        "48": "images/theage_48.png",
+        "128": "images/theage_128.png"
+      },
+    "content_scripts":[
+        {
+            "js":["scripts/script.js"],
+            "matches":[
+                "https://www.theage.com.au/*"
+            ]
+        }
+    ]
 }
