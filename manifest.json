@@ -2,6 +2,7 @@
     "manifest_version": 3,
     "name": "Freeage",
     "description": "Extension which removes trackers to enable infinite free browsing, effectively making it theage.com.au a free resource",
+    "version":"1.0",
     "action":{
         "default_icon":"theage_com_au.png",
         "default_popup":"in_browser_description.html"
